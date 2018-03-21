@@ -1,0 +1,38 @@
+{
+  "name": "login-form",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.5",
+    "react-redux-form": "^1.16.8",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "html-webpack-plugin": "^2.26.0",
+    "install": "^0.10.4",
+    "npm": "^5.7.1",
+    "npm-install-webpack-plugin": "^4.0.5",
+    "path": "^0.12.7",
+    "redux": "^3.7.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
